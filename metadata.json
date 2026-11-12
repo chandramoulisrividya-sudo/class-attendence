@@ -1,0 +1,6 @@
+{
+  "name": "SmartAttend – Dynamic QR Attendance System",
+  "description": "Secure dynamic QR code attendance management system for colleges and universities with real-time tracking, student/faculty/admin dashboards, and anti-proxy protection.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,356 @@
+{
+  "users": [
+    {
+      "id": "fac-1",
+      "name": "Dr. Sarah Jenkins",
+      "email": "sarah.jenkins@smartattend.edu",
+      "role": "faculty",
+      "facultyId": "FAC-CSE-01",
+      "designation": "Professor & Head",
+      "departmentId": "dept-cse",
+      "departmentName": "Computer Science & Engineering",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "fac-2",
+      "name": "Prof. Robert Miller",
+      "email": "robert.miller@smartattend.edu",
+      "role": "faculty",
+      "facultyId": "FAC-CSE-08",
+      "designation": "Associate Professor",
+      "departmentId": "dept-cse",
+      "departmentName": "Computer Science & Engineering",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "fac-3",
+      "name": "Dr. Anita Sharma",
+      "email": "anita.sharma@smartattend.edu",
+      "role": "faculty",
+      "facultyId": "FAC-CSE-15",
+      "designation": "Associate Professor",
+      "departmentId": "dept-cse",
+      "departmentName": "Computer Science & Engineering",
+      "avatar": "https://images.unsplash.com/photo-1580894732454-defa1b55913e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "fac-4",
+      "name": "Dr. Vikram Seth",
+      "email": "vikram.seth@smartattend.edu",
+      "role": "faculty",
+      "facultyId": "FAC-ECE-02",
+      "designation": "Professor & Head",
+      "departmentId": "dept-ece",
+      "departmentName": "Electronics & Communication",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "fac-5",
+      "name": "Prof. David Patel",
+      "email": "david.patel@smartattend.edu",
+      "role": "faculty",
+      "facultyId": "FAC-ECE-09",
+      "designation": "Assistant Professor",
+      "departmentId": "dept-ece",
+      "departmentName": "Electronics & Communication",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "fac-6",
+      "name": "Prof. Ramesh Rao",
+      "email": "ramesh.rao@smartattend.edu",
+      "role": "faculty",
+      "facultyId": "FAC-IT-04",
+      "designation": "Professor & Head",
+      "departmentId": "dept-it",
+      "departmentName": "Information Technology",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "admin-1",
+      "name": "Dr. Marcus Vance",
+      "email": "admin@smartattend.edu",
+      "role": "admin",
+      "adminRole": "Dean of Academic Affairs",
+      "departmentId": "dept-cse",
+      "departmentName": "Academic Administration",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80"
+    },
+    {
+      "id": "std-1794288666662",
+      "name": "Jordan Taylor",
+      "email": "jordan.taylor@smartattend.edu",
+      "role": "student",
+      "studentId": "CS2024001",
+      "departmentId": "dept-cse",
+      "departmentName": "Computer Science & Engineering",
+      "semester": 5,
+      "batch": "2024-2028",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-cse",
+      "name": "Computer Science & Engineering",
+      "code": "CSE",
+      "headOfDepartment": "Dr. Sarah Jenkins",
+      "totalStudents": 0,
+      "totalFaculty": 3
+    },
+    {
+      "id": "dept-ece",
+      "name": "Electronics & Communication",
+      "code": "ECE",
+      "headOfDepartment": "Dr. Vikram Seth",
+      "totalStudents": 0,
+      "totalFaculty": 2
+    },
+    {
+      "id": "dept-it",
+      "name": "Information Technology",
+      "code": "IT",
+      "headOfDepartment": "Prof. Ramesh Rao",
+      "totalStudents": 0,
+      "totalFaculty": 1
+    },
+    {
+      "id": "dept-me",
+      "name": "Mechanical Engineering",
+      "code": "ME",
+      "headOfDepartment": "Dr. Rajesh Nair",
+      "totalStudents": 0,
+      "totalFaculty": 1
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-cs301",
+      "name": "Database Management Systems",
+      "code": "CS301",
+      "departmentId": "dept-cse",
+      "semester": 5,
+      "credits": 4,
+      "facultyId": "fac-1",
+      "facultyName": "Dr. Sarah Jenkins",
+      "totalClassesScheduled": 24
+    },
+    {
+      "id": "sub-cs302",
+      "name": "Operating Systems & Concurrency",
+      "code": "CS302",
+      "departmentId": "dept-cse",
+      "semester": 5,
+      "credits": 4,
+      "facultyId": "fac-2",
+      "facultyName": "Prof. Robert Miller",
+      "totalClassesScheduled": 22
+    },
+    {
+      "id": "sub-cs303",
+      "name": "Computer Networks & Security",
+      "code": "CS303",
+      "departmentId": "dept-cse",
+      "semester": 5,
+      "credits": 3,
+      "facultyId": "fac-1",
+      "facultyName": "Dr. Sarah Jenkins",
+      "totalClassesScheduled": 20
+    },
+    {
+      "id": "sub-cs304",
+      "name": "Artificial Intelligence & Neural Nets",
+      "code": "CS304",
+      "departmentId": "dept-cse",
+      "semester": 5,
+      "credits": 4,
+      "facultyId": "fac-3",
+      "facultyName": "Dr. Anita Sharma",
+      "totalClassesScheduled": 20
+    },
+    {
+      "id": "sub-ec201",
+      "name": "Digital Signal Processing",
+      "code": "EC201",
+      "departmentId": "dept-ece",
+      "semester": 5,
+      "credits": 4,
+      "facultyId": "fac-4",
+      "facultyName": "Dr. Vikram Seth",
+      "totalClassesScheduled": 18
+    },
+    {
+      "id": "sub-it301",
+      "name": "Cloud & Web Architecture",
+      "code": "IT301",
+      "departmentId": "dept-it",
+      "semester": 5,
+      "credits": 4,
+      "facultyId": "fac-6",
+      "facultyName": "Prof. Ramesh Rao",
+      "totalClassesScheduled": 18
+    }
+  ],
+  "classrooms": [
+    {
+      "id": "cr-101",
+      "name": "LH-101 (Turing Hall)",
+      "building": "Tech Block A",
+      "capacity": 80,
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "geofenceRadiusMeters": 60,
+      "hasBeacon": true
+    },
+    {
+      "id": "cr-102",
+      "name": "LH-102 (Von Neumann)",
+      "building": "Tech Block A",
+      "capacity": 70,
+      "latitude": 12.9718,
+      "longitude": 77.5948,
+      "geofenceRadiusMeters": 50,
+      "hasBeacon": true
+    },
+    {
+      "id": "cr-204",
+      "name": "CS-Lab-204 (Advanced Systems)",
+      "building": "Computing Center",
+      "capacity": 45,
+      "latitude": 12.9721,
+      "longitude": 77.595,
+      "geofenceRadiusMeters": 40,
+      "hasBeacon": true
+    },
+    {
+      "id": "cr-sem-a",
+      "name": "Seminar Hall A (Auditorium)",
+      "building": "Central Block",
+      "capacity": 150,
+      "latitude": 12.971,
+      "longitude": 77.594,
+      "geofenceRadiusMeters": 100,
+      "hasBeacon": false
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "enr-std-1794288666662-sub-cs301",
+      "studentId": "std-1794288666662",
+      "subjectId": "sub-cs301",
+      "academicYear": "2024-2025",
+      "semester": 5
+    },
+    {
+      "id": "enr-std-1794288666662-sub-cs302",
+      "studentId": "std-1794288666662",
+      "subjectId": "sub-cs302",
+      "academicYear": "2024-2025",
+      "semester": 5
+    },
+    {
+      "id": "enr-std-1794288666662-sub-cs303",
+      "studentId": "std-1794288666662",
+      "subjectId": "sub-cs303",
+      "academicYear": "2024-2025",
+      "semester": 5
+    },
+    {
+      "id": "enr-std-1794288666662-sub-cs304",
+      "studentId": "std-1794288666662",
+      "subjectId": "sub-cs304",
+      "academicYear": "2024-2025",
+      "semester": 5
+    }
+  ],
+  "sessions": [
+    {
+      "id": "active-sess-demo",
+      "subjectId": "sub-cs301",
+      "subjectCode": "CS301",
+      "subjectName": "Database Management Systems",
+      "facultyId": "fac-1",
+      "facultyName": "Dr. Sarah Jenkins",
+      "classroomId": "cr-101",
+      "classroomName": "LH-101 (Turing Hall)",
+      "sessionType": "Lecture",
+      "topic": "Relational Algebra & Advanced Query Optimization",
+      "startTime": 1794288343600,
+      "endTime": 1794291943600,
+      "durationMinutes": 60,
+      "status": "active",
+      "secretKey": "live-session-crypt-key-cse301",
+      "qrRefreshIntervalSeconds": 20,
+      "totalEnrolled": 0,
+      "totalPresent": 1,
+      "currentToken": "SMARTATTEND:active-sess-demo:1794288685667:1794288705667:725ede8582c99f09",
+      "tokenExpiresAt": 1794288705667
+    }
+  ],
+  "records": [
+    {
+      "id": "rec-active-sess-demo-std-1794288666662",
+      "sessionId": "active-sess-demo",
+      "studentId": "std-1794288666662",
+      "studentName": "Jordan Taylor",
+      "studentRollNumber": "CS2024001",
+      "subjectId": "sub-cs301",
+      "subjectCode": "CS301",
+      "facultyId": "fac-1",
+      "classroomId": "cr-101",
+      "status": "PRESENT",
+      "timestamp": 1794288685674,
+      "verificationMethod": "LOCATION_VERIFIED_QR",
+      "deviceFingerprint": "Device-Mozilla/5.0 (X11; Linux x86_64",
+      "locationVerified": true,
+      "isFlaggedProxy": false,
+      "proxyReason": ""
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-1794288685674-i77f",
+      "timestamp": 1794288685674,
+      "actorId": "std-1794288666662",
+      "actorName": "Jordan Taylor",
+      "actorRole": "student",
+      "action": "ATTENDANCE_MARKED",
+      "targetType": "ATTENDANCE",
+      "targetId": "rec-active-sess-demo-std-1794288666662",
+      "details": "Attendance marked for CS301 via Dynamic QR"
+    },
+    {
+      "id": "log-1794288666662-lu08",
+      "timestamp": 1794288666662,
+      "actorId": "std-1794288666662",
+      "actorName": "Jordan Taylor",
+      "actorRole": "student",
+      "action": "STUDENT_CREATED",
+      "targetType": "STUDENT",
+      "targetId": "std-1794288666662",
+      "details": "New student self-registered: Jordan Taylor (CS2024001) in Computer Science & Engineering"
+    },
+    {
+      "id": "log-seed-1",
+      "timestamp": 1794288043600,
+      "actorId": "admin-1",
+      "actorName": "Dr. Marcus Vance",
+      "actorRole": "admin",
+      "action": "SESSION_CREATED",
+      "targetType": "SESSION",
+      "targetId": "sys-init",
+      "details": "SmartAttend campus system initialized. Registered faculty roster active."
+    },
+    {
+      "id": "log-seed-2",
+      "timestamp": 1794288343600,
+      "actorId": "fac-1",
+      "actorName": "Dr. Sarah Jenkins",
+      "actorRole": "faculty",
+      "action": "SESSION_CREATED",
+      "targetType": "SESSION",
+      "targetId": "active-sess-demo",
+      "details": "Started dynamic QR attendance session for CS301 in LH-101 (Duration: 60 min)."
+    }
+  ]
+}
